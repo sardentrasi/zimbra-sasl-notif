@@ -16,7 +16,7 @@ whitelist_file="$basepath/whitelist"
 account_tmp_file="$basepath/account_sasl_tmp"
 geo_report_file="$basepath/geo_report.log"
 success_log_temp="$basepath/success_log_temp"
-processed_success_log="$basepath/processed_success.log" # <-- FILE BARU (PENTING)
+processed_success_log="$basepath/processed_success.log"
 
 # Hapus file temp dari eksekusi sebelumnya
 > "$account_tmp_file"
